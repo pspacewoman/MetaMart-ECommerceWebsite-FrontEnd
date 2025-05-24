@@ -1,4 +1,7 @@
+#**META-MART**
 # 🛍️ E-commerce Landing (Front-End) Page Project
+
+https://prototype-web-forge.lovable.app/ 
 
 ## 🌟 Overview
 In this project, I demonstrate my front-end development skills by creating an e-commerce landing page for the **Meta Quest 3 VR Headset** on the AMAZON website. The project will showcase the use of **HTML** and **CSS**. 
