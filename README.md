@@ -1,4 +1,5 @@
-🛍️ # META-MART
+# META MART 🛍️
+
 # E-commerce Landing (Front-End) Page Project
 
 https://prototype-web-forge.lovable.app/ 
