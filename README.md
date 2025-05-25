@@ -55,3 +55,4 @@ Landing pages exist as **standalone web pages**, separate from the main website,
 | 8️⃣     | 🌐 Deployment     | Project deployed and made live using GitHub Pages                          | GitHub Pages     |
 
 
+## Explanation
