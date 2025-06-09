@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Search, ShoppingCart, Heart, Star, Menu, Layers, Cpu, Palette } from 'lucide-react';
+import { Search, ShoppingCart, Heart, Star, Menu, Layers, Cpu, Palette, ShieldCheck, Truck, Headphones } from 'lucide-react';
 import HeroCarousel from '../components/HeroCarousel';
 import ProductGallery from '../components/ProductGallery';
 
@@ -275,28 +274,28 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="w-12 h-12 bg-blue-500 rounded-lg mx-auto mb-3 flex items-center justify-center">
-                <div className="w-6 h-6 bg-white rounded"></div>
+                <ShieldCheck className="w-6 h-6 text-white" />
               </div>
               <h3 className="font-semibold mb-1 meta-blue">High Quality</h3>
               <p className="text-sm text-gray-600">crafted from top materials</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-blue-500 rounded-lg mx-auto mb-3 flex items-center justify-center">
-                <div className="w-6 h-6 bg-white rounded"></div>
+                <ShieldCheck className="w-6 h-6 text-white" />
               </div>
               <h3 className="font-semibold mb-1 meta-blue">Warranty Protection</h3>
               <p className="text-sm text-gray-600">Over 2 years</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-blue-500 rounded-lg mx-auto mb-3 flex items-center justify-center">
-                <div className="w-6 h-6 bg-white rounded"></div>
+                <Truck className="w-6 h-6 text-white" />
               </div>
               <h3 className="font-semibold mb-1 meta-blue">Free Shipping</h3>
               <p className="text-sm text-gray-600">Order over 150 $</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-blue-500 rounded-lg mx-auto mb-3 flex items-center justify-center">
-                <div className="w-6 h-6 bg-white rounded"></div>
+                <Headphones className="w-6 h-6 text-white" />
               </div>
               <h3 className="font-semibold mb-1 meta-blue">24 / 7 Support</h3>
               <p className="text-sm text-gray-600">Dedicated support</p>
