@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Search, ShoppingCart, Heart, Star, Menu } from 'lucide-react';
+import { Search, ShoppingCart, Heart, Star, Menu, Layers, Cpu, Palette } from 'lucide-react';
 import HeroCarousel from '../components/HeroCarousel';
 import ProductGallery from '../components/ProductGallery';
 
@@ -221,7 +221,7 @@ const Index = () => {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <div className="w-6 h-6 bg-blue-500 rounded"></div>
+                    <Layers className="w-6 h-6 text-blue-500" />
                   </div>
                   <div>
                     <h5 className="font-medium">Mixed Reality (MR)</h5>
@@ -230,7 +230,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <div className="w-6 h-6 bg-blue-500 rounded"></div>
+                    <Cpu className="w-6 h-6 text-blue-500" />
                   </div>
                   <div>
                     <h5 className="font-medium">Snapdragon® XR2 Gen 2</h5>
@@ -239,7 +239,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <div className="w-6 h-6 bg-blue-500 rounded"></div>
+                    <Palette className="w-6 h-6 text-blue-500" />
                   </div>
                   <div>
                     <h5 className="font-medium">Sleek Ergonomic Design</h5>
